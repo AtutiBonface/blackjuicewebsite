@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 6em;
+    margin: 0;
+    color: #ff6b6b;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #333;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #48D1CC;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #48D1CC;
+}

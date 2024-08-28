@@ -1,0 +1,24 @@
+
+.screenshot {
+    
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 75%;
+    width: 100%;
+}
+
+.screenshot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+.screenshot-caption {
+    background: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

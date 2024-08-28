@@ -1,0 +1,123 @@
+
+header {
+    background: #222;
+    
+    padding: 10px 0;
+    text-align: center;
+
+    .title-bar{
+        justify-content: center;
+        display: flex;
+    }
+
+    h1{
+        align-self: center;
+        color: white !important;
+    }
+
+    img{
+        height: 50px;
+        padding-right: 10px;
+    }
+
+}
+h1, h2 {
+    margin: 0 !important;   
+    line-height: 90%;
+}
+.highlight {
+    color: #48D1CC;
+}
+.version {
+    font-size: 0.5em;
+    color: #48D1CC;
+    vertical-align: super;
+}
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.extension-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    max-width: 55%;
+}
+.extension-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.features {
+    margin-bottom: 40px;
+}
+.features h2 {
+    margin-bottom: 20px;
+    color: #48D1CC;
+}
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+.features ul li {
+  
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.features ul li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #48D1CC !important;
+}
+h1 {
+    color: #48D1CC;
+}
+h2 {
+    color: #48D1CC;
+}
+ol, ul {
+    margin-bottom: 20px;
+}
+code {
+    background-color: #ecf0f1;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.step{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #48D1CC;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.note {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width : 480px) {
+    .extension-preview{
+        max-width: 100%;
+    }
+    
+}

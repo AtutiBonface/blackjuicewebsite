@@ -1,0 +1,107 @@
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    background: #222;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+    .title-bar{
+        justify-content: center;
+        display: flex;
+    }
+
+    h1{
+        align-self: center;
+
+    }
+
+    img{
+        height: 50px;
+        padding-right: 10px;
+    }
+}
+h1, h2 {
+    margin: 0 !important;
+}
+.highlight {
+    color: #48D1CC;
+}
+.version {
+    font-size: 0.5em;
+    color: #48D1CC;
+    vertical-align: super;
+}
+.button {
+    display: inline-block;
+    background: #48D1CC;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.button:hover {
+    background: #3AB3B3;
+}
+.features{
+    display: grid;
+    justify-content: space-between;
+    margin-top: 40px;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+   
+}
+app-features{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.screenshots {
+    margin-top: 40px;
+
+    h2{
+        margin-bottom: 20px !important;
+    }
+}
+.screenshot-container app-screenshots{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.browser-addons{
+    button{
+        background: #48D1CC;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: bold;
+        transition: background 0.3s ease;
+        border: none;
+        cursor: pointer;
+        
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .features{
+        grid-template-columns: 100% !important;
+    }
+    .screenshot-container app-screenshots{
+        grid-template-columns: 100% !important;
+    }
+    
+}

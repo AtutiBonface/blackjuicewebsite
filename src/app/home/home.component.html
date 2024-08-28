@@ -1,0 +1,34 @@
+<main>
+    <header>
+        <div class="container title-bar" >
+            <img src="blackjuice.png" alt="">
+            <h1>Black<span class="highlight">Juice</span> <span class="version">v2.0</span></h1>
+        </div>
+    </header>
+  
+    <div class="container">
+        <h2>Fast, Simple, Efficient Download Manager</h2>
+        <p>Experience lightning-fast downloads with a clean, user-friendly interface. Available for desktop and as a browser extension.</p>
+        <a href="javascript:void(0)" (click)="download_file()"  class="button">Download BlackJuice 2.0</a>
+  
+        <div class="features" >           
+            <app-features *ngFor="let item of features_content" [description]='item.description' [title]="item.title"></app-features>            
+        </div>
+  
+        <div class="screenshots">
+            <h2>See BlackJuice in Action</h2>
+            <div class="screenshot-container">
+                <app-screenshots></app-screenshots>
+            </div>          
+           
+        </div>
+
+        <div class="browser-addons">
+            <h2>Integrate BlackJuice with your Browser</h2>
+            <button (click)="openAddsPage()">Install Addon</button>
+        </div>
+        
+        
+
+    </div>
+  </main>
